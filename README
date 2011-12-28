@@ -1,1 +1,9 @@
 servicesidekick-sdk is a simple Python wrapper around the ServiceSidekick API (http://www.servicesidekick.com/help/api).  Currently only read-only methods are implemented without the support of the various filters that are available.  I developed this as a quick way to test the API functionality and for future use in building a custom data migration tool.
+
+USAGE
+=====
+
+import ServiceSidekick
+
+s = ServiceSidekick('api_token', 'myapp')
+print s.list_customers()
