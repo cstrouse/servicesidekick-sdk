@@ -3,7 +3,5 @@ servicesidekick-sdk is a simple Python wrapper around the ServiceSidekick API (h
 USAGE
 =====
 
-import ServiceSidekick
-
 s = ServiceSidekick('api_token', 'myapp')
 print s.list_customers()
