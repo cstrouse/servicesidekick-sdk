@@ -1,3 +1,4 @@
+from BeautifulSoup import BeautifulSoup
 import requests
 
 # TODO: Add filters to all read-only API calls
