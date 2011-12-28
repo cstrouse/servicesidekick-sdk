@@ -20,10 +20,12 @@ class ServiceSidekick(object):
 		r = requests.get(url, auth=(self.token, self.token))
 		return r.content
 		
-	def create_customer(self):
+	def create_customer(self, new_customer):
+		# new_customer should be a dict with the customer info
 		pass
 		
-	def update_customer(self, customer_id):
+	def update_customer(self, customer_id, customer):
+		# new_customer should be a dict with the customer info
 		pass
 		
 	def delete_customer(self, customer_id):
@@ -42,10 +44,12 @@ class ServiceSidekick(object):
 		r = requests.get(url, auth=(self.token, self.token))
 		return r.content
 		
-	def create_job(self):
+	def create_job(self, new_job):
+		# new_job should be a dict with the job info
 		pass
 		
-	def update_job(self, job_id):
+	def update_job(self, job_id, job):
+		# new_job should be a dict with the job info
 		pass
 		
 	def delete_job(self, job_id):
@@ -68,10 +72,12 @@ class ServiceSidekick(object):
 		r = requests.get(url, auth=(self.token, self.token))
 		return r.content
 		
-	def create_employee(self):
+	def create_employee(self, new_employee):
+		# new_employee should be a dict with the employee info
 		pass
 		
-	def update_employee(self, employee_id):
+	def update_employee(self, employee_id, employee):
+		# new_employee should be a dict with the employee info
 		pass
 		
 	# deletion of employees is not supported, set inactive via update
